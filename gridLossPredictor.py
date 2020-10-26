@@ -25,10 +25,10 @@ dataPointsCount = 24 * 3
 outputCardinality = 24
 
 # relative or absolute path (mind the escape characters) to the raw training data-set
-fileNameTraining = "gridData/GridFeedIn/Netzverluste_Combined.csv"
+fileNameTraining = "gridData/trainingData.csv"
 
 # relative or absolute path (mind the escape characters) to the raw training data-set
-fileNameValidation = "gridData/Netzverluste_2019.csv"
+fileNameValidation = "gridData/validationData.csv"
 
 
 def prepareData(fileName, option="SLIDING_WINDOW", dateFormat="%d.%m.%Y %H"):
